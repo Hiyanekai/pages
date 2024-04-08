@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <!-- ページのタイトル -->
+        <meta charset="UTF-8">
+        <title>入力フォーム</title>
+        <link rel="stylesheet" href="CSS/form2.css">
+    </head>
+
+    <body>
+        <dev align="center">
+            <h2 class="top">アンケート</h2>
+        </dev>
+
+        <div align="center">
+            <hr>
+            <!-- フォーム -->
+            <form action="result.html">
+                <div class="box"><br>
+                    <p align="left" class="space">
+                        AxiZの研修をご利用いただき、誠にありがとうございます。<br>以下の内容の記入及び送信をして頂けると幸いです。
+
+                    <!-- 会社名　テキストボックス -->
+                    <div align="left" class="space">
+                        <span class="required">会社名&emsp;</span><br>
+                        <input type="text" class="text" size="90" name="company" placeholder="例)株式会社テクノコア"> 
+                    </div><br>
+
+                    <!-- 名前　テキストボックス -->
+                    <div align="left" class="space">
+                        <span class="required">お名前&emsp;</span><br>
+                        <input type="text" class="text" size="90" name="name" placeholder="例)手久野　興亜"> 
+                    </div><br>
+
+                    <!-- メールアドレス　テキストボックス -->
+                    <div align="left" class="space">
+                        メールアドレス<br>
+                        <input type="text" class="text" size="90" name="mail" placeholder="例)example@axiz.co.jp"> 
+                    </div><br>
+
+                    <!-- 年齢　数字のみ -->
+                    <div align="left" class="space">
+                        年齢<br>
+                        <input type="number" class="text_age" size="3" value="age"> 
+                    </div><br>
+
+                    <!-- 受講コース ラジオボタン -->
+                    <div align="left" class="space">
+                        受講コース<br>
+                        <label><input type="radio" name="course" value="Java" checked>Java</label>
+                        <label><input type="radio" name="course" value="infura">インフラ</label>
+                    </div><br>
+
+                    <!-- 会場　セレクトボックス -->
+                    <div align="left" class="space">
+                        会場<br>
+                        <select name="会場" class="select">
+                            <option name="a" value="nipponbasi" selected>日本橋A教室</option>
+                            <option name="b" value="shibuya">渋谷B教室</option>
+                            <option name="c" value="yokohama">横浜C教室</option>
+                            <option name="d" value="okinawa">沖縄D教室</option>
+                        </select>
+                    </div><br>
+
+                    <!-- 内容　チェックボックス -->
+                    <div align="left" class="space">
+                        詳しく学びたい内容（複数回答可）<br>
+                        <label class="check"><input type="checkbox" name="check"  value="biginess">ビジネスマナー</label><br>
+                        <label class="check"><input type="checkbox" name="check"  value="HTML/CSS"> HTML/CSS</label><br>
+                        <label class="check"><input type="checkbox" name="check"  value="JavaScript"> JavaScript</label><br>
+                        <label class="check"><input type="checkbox" name="check"  value="Java"> Java</label><br>
+                        <label class="check"><input type="checkbox" name="check"  value="database"> データベース</label><br>
+                        <label class="check"><input type="checkbox" name="check"  value="Linux"> Linux</label><br>
+                    </div><br>
+
+                    <!-- ご意見　テキストエリア　MAX8行 -->
+                    <div align="left" class="space">
+                        ご意見<br>
+                        <textarea name="free" class="free" rows="8" cols="78" placeholder="自由にご記入ください。"></textarea>
+                    </div><br>
+
+                    <!-- 送信ボタン　押すとエラー -->
+                    <div align="left" class="space">
+                        <button type="submit" class="button">送信する</button>
+                    </div><br>
+                </div>
+                <hr>
+            </form>
+        </div>
+    </body>
+    <!-- フッター　コピーライト -->
+    <footer>
+        <dev align="center">
+            <P><small>Copyright（C）Axiz</small></P>
+        </dev>
+    </footer>
+</html>

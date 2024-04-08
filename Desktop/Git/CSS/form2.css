@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(199, 249, 247);
+}
+.top{
+    color: darkseagreen;
+}
+.box{
+    background-color: white;
+    width: 700px;
+    height: 1060px;
+    margin: 10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 9px; /* 角丸を指定する */
+}
+hr{
+    color: blue;
+    background-color: blue;
+    height: 3px;
+    border: none;
+}
+
+.space{
+    margin-left: 30px;
+}
+
+.text{
+    /* box-shadow: 5px 5px 2px #e6e6e6; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px #9d9a9a;/* 影をつける */
+    border-radius: 7px; /* 角丸を指定する */
+}
+
+.text_age{
+    text-align: center;
+    border-radius: 7px; /* 角丸を指定する */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px #9d9a9a;/* 影をつける */
+}
+
+.select{
+    border-radius: 7px; /* 角丸を指定する */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+}
+
+.free{
+    border-radius: 7px; /* 角丸を指定する */
+    box-shadow: 1px 1px 1px #9d9a9a;/* 影をつける */
+}
+
+.button{
+    border: 1px solid #c6c4c4;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
+.required::after {
+    content: "必須";
+    color: #ffffff;
+    background: #cc0000;
+    border-radius: 8px; /* 角丸を指定する */
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}

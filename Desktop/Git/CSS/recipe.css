@@ -1,0 +1,33 @@
+/* 背景 */
+body{
+    background-image: url(bg_Argyle.jpg);
+    background-size: cover;
+}
+body{
+    background-image: url(bg_Argyle.jpg);
+    background-size: cover;
+}
+/* カレー　囲い線　2重 */
+.curry{
+    border: 10px double red;
+    padding: 1px;
+}
+/* テーブル　背景と横幅*/
+.table{
+    border-color: red;
+    background-color: #fff5cc;
+    width: 250px;
+}
+/* "素材　赤色" */
+#material{
+    color: red;
+}
+/* 横並び */
+.chocolate{
+    display: flex;
+}
+/* チョコレート画像　サイズ変更 */
+.c_image{
+    width: 230px;
+    height: 150px;
+}
